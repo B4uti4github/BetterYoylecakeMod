@@ -8,6 +8,9 @@
 	"version": "v1.0.0",
 	"developer": "B4uti4GD",
 	"description": "A rework of YoylecakeJumpscare",
+	"links": {
+		"source": "https://github.com/B4uti4github/BetterYoylecakeMod"
+	},
 	"resources": {
 		"files": ["resources/yoylecake.png", "resources/y-sfx.ogg", "resources/imagenxd.png"]
 	}
