@@ -29,7 +29,7 @@ struct $modify(MyGJBaseGameLayer, GJBaseGameLayer) {
 	}
 
     bool init() {
-		if (!init()) return false;
+		if (!GJBaseGameLayer::init()) return false;
 
 		return true;
     }
