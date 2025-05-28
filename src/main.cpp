@@ -24,7 +24,10 @@ struct $modify(MyGJBaseGameLayer, GJBaseGameLayer) {
 		yoylecakeSpr->setScale(scaleRatio);
 
 		yoylecakeSpr->setPosition({ winSize.width / 2, winSize.height / 2 });
-		yoylecakeSpr->runAction(CCFadeOut::create(0.5));
+		yoylecakeSpr->runAction(CCSequence::createWithTwoActions(
+  			CCFadeOut::create(0.5),
+			CCRemoveSelf::create()
+		));
 		FMODAudioEngine::sharedEngine()->playEffect("y-sfx.ogg"_spr);
 	}
 
