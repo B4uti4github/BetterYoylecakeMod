@@ -1,3 +1,5 @@
+# 1.0.4
+- more credits :D
 # 1.0.3
 - android support
 # 1.0.2

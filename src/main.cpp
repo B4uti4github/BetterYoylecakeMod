@@ -6,8 +6,8 @@ using namespace geode::prelude;
 
 struct $modify(MyGJBaseGameLayer, GJBaseGameLayer) {
 	void resetPlayer(){
-		GJBaseGameLayer::resetPlayer();
 		yoyle();
+		GJBaseGameLayer::resetPlayer();
 	}
 
 	void yoyle() {
