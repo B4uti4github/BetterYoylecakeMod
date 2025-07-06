@@ -1,3 +1,8 @@
+# v1.0.6
+- added new "yoylecake F" image and sound.
+- added percentage onwards for "yoylecake F".
+- added settings.
+- added "support me" button.
 # v1.0.5
 - joke tag added :D
 - RayDeeUx, please, I know I've blatantly plagiarized your mod before, but this is the rework. I just wanted to make a BFDI-themed mod, and I forgive you. There are other mods like Jesus Mod, which are jumpscare mods, an example being Robtop Jumpscare. I truly forgive you; I archived the previous mod.

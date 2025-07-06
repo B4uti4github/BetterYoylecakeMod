@@ -1,5 +1,5 @@
 {
-	"geode": "4.3.1",
+	"geode": "4.6.1",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074"
@@ -7,13 +7,33 @@
 	"id": "b4uti4gd.betteryoylecake",
 	"name": "BetterYoylecake",
 	"tags": ["joke"],
-	"version": "v1.0.5",
+	"version": "v1.0.6",
 	"developer": "B4uti4GD",
 	"description": "A rework of YoylecakeJumpscare",
 	"links": {
 		"source": "https://github.com/B4uti4github/BetterYoylecakeMod"
 	},
+	"settings": {
+		"activate-worst-deaths": {
+			"name": "activate worst deaths",
+			"type": "bool",
+			"default": true
+		},
+		"Percent-of-the-f": {
+            "name": "Percent for worst deaths onwards",
+			"enable-if": "activate-worst-deaths",
+			"enable-if-description": "requires activate-worst-deaths",
+			"description": "worst deaths after percent, works if activate worst death is activated",
+            "type": "float",
+            "default": 80,
+            "min": 0,
+            "max": 100,
+            "control": {
+                "slider": true
+            }
+        }
+	},
 	"resources": {
-		"files": ["resources/yoylecake.png", "resources/y-sfx.ogg", "resources/imagenxd.png"]
+		"files": ["resources/yoylecake.png", "resources/yoylecake2.png", "resources/y-sfx.ogg", "resources/y-sfx2.mp3"]
 	}
 }
